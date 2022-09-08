@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
 const fs = require('fs');
-const inquirer = require('inquirer')
+const inquirer = require('inquirer');
+const { stringify } = require('querystring');
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -27,10 +28,11 @@ function init() {
     inquirer
     .prompt(questions)
     .then(answers => {
-        console.log(answers.projectName)
+
+    const answersArr = (JSON.stringify(answers));
 
 
-        writeToFile('test.txt', answers.projectName)
+        writeToFile('README.md', answersArr);
     });
 };
 
