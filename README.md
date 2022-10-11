@@ -1,31 +1,15 @@
+# ReadMe Generator
 
-  
-  # ReadMe Generator  ![Github License](https://img.shields.io/badge/license-MIT-blue.svg)
+This ReadMe Generator is a Node.js application that allows users to input information about their project and then generate a complete and thorough readme that follows best practices.
+
+## To use this generator. 
+1. Download repo onto your files. 
+2. Open your source code editor and your terminal once you have Node.JS downloaded. 
+3. Run "NPM I" command to download packages needed for the file.
+4. Once all packages are downloaded you can run the file by typing "Node Index.js"
+5. Answer all questions prompted and readMe will generate. 
+6. Open readme and open the readme preview for full view of product. 
 
 
-  ## https://github.com/Plovato97/ReadMe-Generator
-  # Description
-  It creates a readme with certain descriptions and information.
-  # Table of Content
-  * [Installation](#installation)
-  * [Usage](#usage)
-  * [License](#license)
-  * [Contributing](#contribution)
-  * [Test](#tests)
-  * [Questions](#questions)
-  # Installation
-  ### The following necessary dependencies must be installed to run the application
-  * NPM I
-  # Usage
-  ### Please note you need the following information to use this application. 
-   Make sure to install all dependencies before running it. 
-  # License 
-  This Project is licensed under the MIT license.
-  ### https://choosealicense.com/licenses/mit/
-  # Contribution
-  ## Contributor(s): Paul L
-  # Tests
-  ### The following is needed to run the test
-  * Node Index.js
-  # Questions
-  ### If you have any questions about the repo, open an issue or contact lovato.paul97@yahoo.com 
+End product image.
+![Readme Image](/img/Screenshot%202022-10-10%20201547.png)
