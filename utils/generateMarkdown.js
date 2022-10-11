@@ -47,10 +47,10 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `
   
-  #${data.title} ${renderLicenseSection(data.license)} ${renderLicenseBadge(data.license)}
+  # ${data.title} ${renderLicenseSection(data.license)} ${renderLicenseBadge(data.license)}
 
 
-  ## https://github.com/${data.Username}/${data.title}
+  ## https://github.com/${data.username}/${data.title}
   # Description
   ${data.description}
   # Table of Content
@@ -64,10 +64,11 @@ function generateMarkdown(data) {
   ### The following necessary dependencies must be installed to run the application
   * ${data.dependencies}
   # Usage
-  ### Please note you need the following information to use this application. - ${data.usage}
+  ### Please note you need the following information to use this application.
+  ${data.usage}
   # License 
   This Project is licensed under the ${data.license} license.
-  ###${renderLicenseLink(data.license)}
+  ### ${renderLicenseLink(data.license)}
   # Contribution
   ## Contributor(s): ${data.contributing}
   # Tests
